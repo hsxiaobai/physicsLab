@@ -29,7 +29,7 @@
 自版本`2.0.0`及之后, `physicsLab`会逐步增加兼容的考虑与支持
 
 但这并不意味着无意义的兼容。通常来说，会采用标注弃用, 并推荐转移到新api的模式。
-* v2.0.0: `clsss Experiment, ExperimentOpenedError, ExperimentClosedError, ExperimentExistError, ExperimentNotExistError`实验性地加入`stable`支持
+* v2.0.0: `class Experiment, ExperimentOpenedError, ExperimentClosedError, ExperimentExistError, ExperimentNotExistError`实验性地加入`stable`支持
 
 ## 版本发布
 `physicsLab`的版本发布采取快照的方式, `physicsLab`仅会维护`trunk`
@@ -45,7 +45,7 @@ pip install physicsLab
 ```shell
 python -m pip install physicsLab
 ```
-> Note: 在`Windows`下你可以输入`py`来使用`python`，`Linux, MacOS`下可能需要输入`python3`来使用`python`
+> Note: 在`Windows`下你可以输入`py`来使用`python`，`Linux, MacOS`下可能需要输入`python3`或`python3.x`（`python`加上你的Python版本）来使用`python`
 
 3.  有一个并非必需的功能：播放midi（仅在Windows下可用）。你可以输入下面命令的任意一条：
 ```shell
